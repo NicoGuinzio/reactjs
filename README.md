@@ -1,11 +1,11 @@
-# [¡Hola,] [Bienvenid@!]
+# ¡Hola, Bienvenid@!
 ***## Mi nombre es Nicolás Nahuel Guinzio***
 Soy el creador de este proyecto de ReactJS necesario para finalizar mi curso de CODERHOUSE.
 
 Mi intención es poder comentar paso a paso lo que voy creando, modificando y eliminando si es necesario para que puedan entender correctamente mi trabajo.
 
 
-**[18/8/2022]**
+**18/8/2022**
 Se creó la app con react js.
 En la carpeta "src" creé la carpeta "Components"
 En la carpeta "Components" voy a estar creando nuevas carpetas con sus respectivos hojas de lenguaje.

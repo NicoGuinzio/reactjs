@@ -6,12 +6,12 @@ function ColorSchemesExample() {
   return (
     <>
       <Navbar bg="dark" variant="dark">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+        <Container className="contenedorItemsNavbar">
+          <Navbar.Brand href="#home">Tienda</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Nav.Link href="#home">Libros</Nav.Link>
+            <Nav.Link href="#features">Discos</Nav.Link>
+            <Nav.Link href="#pricing">Juegos</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
