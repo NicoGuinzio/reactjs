@@ -1,15 +1,8 @@
-import './Alerta.css';
-import Button from 'react-bootstrap/Button';
-
-function Alerta () {
+ export const Alerta = () => {
     return(
-        <nav className='alerta-contenedor'>
-            <h1 style={{color:'green'}}>Titulo</h1>
-            <img src="" alt=""/>
-            <p className='alerta-parrafo'>Parrafo</p>
-            <Button variant="primary">Primary</Button>
-        </nav>
+        <div>
+            <p> soy una alerta</p>
+        </div>
     )
 }
 
-export default Alerta
