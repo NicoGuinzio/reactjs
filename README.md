@@ -16,3 +16,17 @@ Crea una carpeta dentro de src llamada components que contenga a NavBar.js para 
 Brand (título/nombre de la tienda)
 Un listado de categorías clickeables
 Incorpora alguna librería de estilos con bootstrap/materialize u otro de tu preferencia (opcional).
+
+
+**23/8/2022**
+
+Se crean mas carpetas en la sección componentes llamadas "CartWidget" como subcarpeta de NavBar y se crear "ItemListContainer".
+Ambas carpetas con sus respectivos archivos de lenguaje. 
+A dia de hoy solo estoy usando js y css. Un aspecto a mejorar en la medida que me vaya dando el tiempo seria incluir SASS en mi proyecto.
+
+Por otro lado se instala la libreria de React icons para poder agregar el icono de carrito de compras. 
+
+
+### > Aspectos a incluir en le entregable: 
+Parte 1: crea un componente CartWidget.js que haga rendering de un ícono Cart, e inclúyelo dentro de NavBar.js para que esté visible en todo momento.
+Parte 2: crea un componente ItemListContainer. Impórtalo dentro de App.js, y abajo de NavBar.js. 

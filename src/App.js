@@ -1,9 +1,8 @@
-// import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ColorSchemesExample from './components/NavBar/NavBar';
 import Welcome from './components/Welcome/Welcome';
-import {Alerta} from './components/Alerta/Alerta';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 function App() {
   return (
     <div className="App">
@@ -14,7 +13,8 @@ function App() {
               <ColorSchemesExample/>
       </nav>
       <section>
-        <Alerta></Alerta>
+              <ItemListContainer titulo="Musica" ></ItemListContainer>
+              
       </section>
 
     </div>

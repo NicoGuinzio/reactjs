@@ -1,6 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import CartWidget from './CartWidget/CartWidget'
+
 
 function ColorSchemesExample() {
   return (
@@ -12,7 +14,10 @@ function ColorSchemesExample() {
             <Nav.Link href="#home">Libros</Nav.Link>
             <Nav.Link href="#features">Discos</Nav.Link>
             <Nav.Link href="#pricing">Juegos</Nav.Link>
-          </Nav>
+           <button>
+           <CartWidget/>      
+           </button>
+          </Nav> 
         </Container>
       </Navbar>
       
