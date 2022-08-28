@@ -1,6 +1,7 @@
 # ¡Hola, Bienvenid@!
+
 ***## Mi nombre es Nicolás Nahuel Guinzio***
-Soy el creador de este proyecto de ReactJS necesario para finalizar mi curso de CODERHOUSE.
+Soy el creador de este proyecto de ReactJS necesario para finalizar mi curso de CODERHOUSE siendo de la comisión 41590.
 
 Mi intención es poder comentar paso a paso lo que voy creando, modificando y eliminando si es necesario para que puedan entender correctamente mi trabajo.
 
@@ -30,3 +31,18 @@ Por otro lado se instala la libreria de React icons para poder agregar el icono 
 ### > Aspectos a incluir en le entregable: 
 Parte 1: crea un componente CartWidget.js que haga rendering de un ícono Cart, e inclúyelo dentro de NavBar.js para que esté visible en todo momento.
 Parte 2: crea un componente ItemListContainer. Impórtalo dentro de App.js, y abajo de NavBar.js. 
+
+
+**25/08/2022**
+
+Se crea un componente  ItemCount.js compuesto de numeros y controles para incrementar y decrementar la cantidad de items.
+creé también las carpetas de "assets" para contener mis imagenes, la carpeta "cards" para contenerla y la carpeta "imagenes" para guardar organizar bien los modulos.
+De a poco se le va dando estilo a la página para que también se vea ordenado.
+
+### >Aspectos a incluir en el entregable:
+Componente ItemCount.js con los respectivos controles de la consigna.
+
+
+[
+    Componente ItemCount.js **N**
+]

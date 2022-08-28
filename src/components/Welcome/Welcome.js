@@ -1,9 +1,12 @@
 import './Welcome.css';
 
-function Welcome () {
+export function Welcome ({titulo}) {
     return(
-        <h1>  Bienvenidos</h1>
+        < >
+            <div style={{ fontSize: '3rem', textAlign: 'center'}}>
+            <p className="titleContainer"> {titulo}</p>
+            </div>
+        </>
     )
 }
 
-export default Welcome;

@@ -1,0 +1,16 @@
+.imgContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: auto;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.imagen-size{
+    width:80%
+}

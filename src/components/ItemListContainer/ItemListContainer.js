@@ -1,11 +1,12 @@
-const ItemListContainer = ({titulo}) => {
+import './ItemListContainer.css';
+
+export const ItemListContainer = ({titulo}) => {
     return(
         <>
             <div>
-                <h1>{titulo}</h1>
+                <h2 className='tituloItemList'>{titulo}</h2>
             </div>
         </>
     );
 }
 
-export default ItemListContainer;

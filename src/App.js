@@ -1,20 +1,31 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ColorSchemesExample from './components/NavBar/NavBar';
-import Welcome from './components/Welcome/Welcome';
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import {Welcome} from './components/Welcome/Welcome';
+// import {ItemListContainer} from './components/ItemListContainer/ItemListContainer';
+// import {Alerta} from './components/Alerta/Alerta'
+import {Cards} from './components/cards/cards'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-              <Welcome/>
+              <Welcome titulo="ChampionShop"/>
       </header>
       <nav>
               <ColorSchemesExample/>
       </nav>
       <section>
-              <ItemListContainer titulo="Musica" ></ItemListContainer>
-              
+              {/* <ItemListContainer titulo="ItemListContainer" ></ItemListContainer>
+              <Alerta mensaje="HUBO UN ERROR" id="2">
+                <button> Aceptar </button>
+              </Alerta>
+              <Alerta mensaje="Perfecto" id="2">
+                <button style={{margin:10}}> confirmar </button>
+                <button> no confirmar </button>
+              </Alerta>      */}
+              <div className='card'>
+              <Cards/>
+              </div> 
       </section>
 
     </div>
