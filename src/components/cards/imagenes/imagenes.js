@@ -1,3 +1,4 @@
+import { CountButton } from '../../ItemCount/ItemCount';
 import './imagenes.css';
 
 
@@ -8,7 +9,7 @@ export const Imagenes = ({imagen, poder,texto}) => {
             <img src={imagen} alt='' className='imagen-size'/>
             <p>Poder: {poder}</p>
             <p>{texto}</p>
-            <button>Comprar</button>
+            <CountButton/>
         </div>
         </div>
     )

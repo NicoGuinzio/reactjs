@@ -87,3 +87,11 @@ const [apellido, setApellido] = useState("perez")ñ
         </div>
     )
 }
+
+**15> LAS TRES CLASIFICACIONES DE ESTADOS DENTRO DE UN CICLO DE VIDA**
+--> El montaje se produce la primera vez que un componente va a generarse, incluyéndose en el DOM.
+--> La actualización se produce cuando el componente ya generado se está actualizando.
+--> El desmontaje se produce cuando el componente se elimina del DOM.
+
+
+**16> Hook de efecto "useEffect"** 
