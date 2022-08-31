@@ -39,10 +39,14 @@ Se crea un componente  ItemCount.js compuesto de numeros y controles para increm
 creé también las carpetas de "assets" para contener mis imagenes, la carpeta "cards" para contenerla y la carpeta "imagenes" para guardar organizar bien los modulos.
 De a poco se le va dando estilo a la página para que también se vea ordenado.
 
+
 ### >Aspectos a incluir en el entregable:
 Componente ItemCount.js con los respectivos controles de la consigna.
 
 
-[
-    Componente ItemCount.js **N**
-]
+**31/08/2022** 
+
+Se crea un archivo "ArrayChampions que servirá para guardar los datos de mis cards y asi renderizarlas. 
+También se corrige el desafio pasado, agregando un boton contadador para incrementar, para decrementar y para agregar al carrito.
+Queda pendiente la actualizacion del CSS.
+
