@@ -1,7 +1,8 @@
+
 const Champions = 
 [
     { id: 1, nombre: "Aatrox", poder: 29, Precio: 100, Posicion: "mid",imagen:"/assetspub/aatrox.jpg"},
-    { id: 2,  nombre: "Brand", poder: 29, Precio: 100, Posicion: "mid",imagen:"assetspub/" },
+    { id: 2,  nombre: "Brand", poder: 29, Precio: 100, Posicion: "mid",imagen:"assetspub/brand.jpg" },
     { id: 3,  nombre: "Caitlyn", poder: 29, Precio: 100, Posicion: "mid",imagen:"assetspub/" },
     { id: 4,  nombre: "Corki", poder: 29, Precio: 100, Posicion: "mid",imagen:"assetspub/" },
     { id: 5,  nombre: "Darius", poder: 29, Precio: 100, Posicion: "mid",imagen:"assetspub/" },

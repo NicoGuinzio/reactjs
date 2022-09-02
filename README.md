@@ -50,3 +50,19 @@ Se crea un archivo "ArrayChampions que servirá para guardar los datos de mis ca
 También se corrige el desafio pasado, agregando un boton contadador para incrementar, para decrementar y para agregar al carrito.
 Queda pendiente la actualizacion del CSS.
 
+
+
+
+**2/9/2022**
+
+
+Se crea el componente de Landing
+### > Consigna:
+Crea los componentes Item.js e ItemList.js para mostrar algunos productos en tu ItemListContainer.js. Los ítems deben provenir de un llamado a una promise que los resuelva en tiempo diferido (setTimeout) de 2 segundos, para emular retrasos de red
+
+
+### >Aspectos a incluir en el entregable:
+Item.js: Es un componente destinado a mostrar información breve del producto que el user clickeará luego para acceder a los detalles (los desarrollaremos más adelante)
+ItemList.js Es un agrupador de un set de componentes Item.js (Deberías incluirlo dentro de ItemListContainer del desafío 3)
+Implementa un async mock (promise): Usa un efecto de montaje para poder emitir un llamado asincrónico a un mock (objeto) estático de datos que devuelva un conjunto de item { id, title, description, price, pictureUrl } en dos segundos (setTimeout), para emular retrasos de red.
+
