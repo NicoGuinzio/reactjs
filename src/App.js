@@ -1,16 +1,16 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ColorSchemesExample from './components/NavBar/NavBar';
-import {Welcome} from './components/Welcome/Welcome';
+
 // import {ItemListContainer} from './components/ItemListContainer/ItemListContainer';
-// import {Alerta} from './components/Alerta/Alerta'
-import {Cards} from './components/cards/cards'
-import { Landing } from './components/landing/Landing';
+
+// import {Cards} from './components/cards/cards'
+import { Landing } from './components/Landing/Landing';
 function App() {
   return (
     <div className="App">
       <header className="App-header"> 
-              <Welcome titulo="ChampionShop"/>
+              
       </header>
       <nav>
               <ColorSchemesExample/>
@@ -25,9 +25,9 @@ function App() {
                 <button> no confirmar </button>
               </Alerta> */}
 
-              <div className='card'>
+              {/* <div className='card'>
               <Cards/>
-              </div>
+              </div> */}
       </section>
       <section>
               <div>

@@ -51,8 +51,6 @@ También se corrige el desafio pasado, agregando un boton contadador para increm
 Queda pendiente la actualizacion del CSS.
 
 
-
-
 **2/9/2022**
 
 

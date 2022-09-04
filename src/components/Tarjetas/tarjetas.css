@@ -1,3 +1,10 @@
+.cardContainer{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: rgb(250, 193, 107); */
+    /* background-color: blue; */
+}
+
 .imgContainer{
     display: flex;
     flex-wrap: wrap;
@@ -9,8 +16,11 @@
     border: 2px solid rgb(0, 0, 0);
     border-radius: 10px;
     margin: 10px;
+    background-color: black;
 }
 
 .imagen-size{
-    width:90%
+    width:90%;
+    /* background-color: red; */
+
 }
