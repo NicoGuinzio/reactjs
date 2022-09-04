@@ -5,7 +5,7 @@ import ColorSchemesExample from './components/NavBar/NavBar';
 // import {ItemListContainer} from './components/ItemListContainer/ItemListContainer';
 
 // import {Cards} from './components/cards/cards'
-import { Landing } from './components/Landing/Landing';
+import { ItemList } from './components/ItemList/ItemList';
 function App() {
   return (
     <div className="App">
@@ -31,7 +31,7 @@ function App() {
       </section>
       <section>
               <div>
-                <Landing/>
+                <ItemList/>
               </div>
       </section>
 

@@ -1,6 +1,8 @@
 import React, {useState} from 'react'
 import './tarjetas.css'
 
+
+
 export const Tarjetas = ({campeones}) => {
 
     const [seleccionCompra, setseleccionCompra] = useState(0)
@@ -12,7 +14,8 @@ export const Tarjetas = ({campeones}) => {
         <div className='imgContainer'>
           <img src={campeones.imagen} alt={campeones.nombre}className='imagen-size'></img>
           <p> {campeones.nombre}</p>
-          <h3> Mi posicion es:{campeones.posicion}</h3>
+          <h3> Posicion:{campeones.posicion}</h3>
+          <h4> Poder:{campeones.poder}</h4>
           <h4> Precio:{campeones.precio}</h4>
           <p>Cantidad seleccionada: {seleccionCompra}</p>
           <button onClick={incrementar}>+</button>
