@@ -54,8 +54,11 @@ Queda pendiente la actualizacion del CSS.
 **2/9/2022**
 
 
-Se crea el componente de Landing
-### > Consigna:
+Se crea el componente itemlist.css/js y se crea el componente item.css/js. Tambien se crea en la carpeta Data un comonente de Arrays para ser utilizado como una API. 
+Lo que se realizo fue una promesa para renderizar las cards de champions y se le aplico un tiempo para renderizar a travez del setTimeout(). Se utlilzó también una función asincrona y un map para no utilizar muchas lineas de codigo. 
+También aparte del desafio, se eliminaron carpetas y hojas de trabajo que no eran utilizadas.
+
+>>> Consigna:
 Crea los componentes Item.js e ItemList.js para mostrar algunos productos en tu ItemListContainer.js. Los ítems deben provenir de un llamado a una promise que los resuelva en tiempo diferido (setTimeout) de 2 segundos, para emular retrasos de red
 
 
@@ -64,3 +67,5 @@ Item.js: Es un componente destinado a mostrar información breve del producto qu
 ItemList.js Es un agrupador de un set de componentes Item.js (Deberías incluirlo dentro de ItemListContainer del desafío 3)
 Implementa un async mock (promise): Usa un efecto de montaje para poder emitir un llamado asincrónico a un mock (objeto) estático de datos que devuelva un conjunto de item { id, title, description, price, pictureUrl } en dos segundos (setTimeout), para emular retrasos de red.
 
+
+**05/09/2022**

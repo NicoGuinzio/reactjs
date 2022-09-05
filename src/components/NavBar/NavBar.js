@@ -9,12 +9,12 @@ function ColorSchemesExample() {
     <>
       <Navbar className="NavBarContainer" bg="dark" variant="dark">
         <Container >
-          <Navbar.Brand href="#home">Campeones</Navbar.Brand>
+          <Navbar.Brand href="#campeones">Campeones</Navbar.Brand>
           <Nav className="me-auto ">
-            <Nav.Link href="#home">Mid</Nav.Link>
-            <Nav.Link href="#features">Top</Nav.Link>
-            <Nav.Link href="#features">Bot</Nav.Link>
-            <Nav.Link href="#pricing">Jungle</Nav.Link>
+            <Nav.Link href="#mid">Mid</Nav.Link>
+            <Nav.Link href="#top">Top</Nav.Link>
+            <Nav.Link href="#bot">Bot</Nav.Link>
+            <Nav.Link href="#jungle">Jungle</Nav.Link>
            <button>
            <CartWidget/>      
            </button>

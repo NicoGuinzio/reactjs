@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import './tarjetas.css'
+import './items.css'
 
 
 

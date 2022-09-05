@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Tarjetas } from "../Items/Items";
-import './landing.css'
+import './itemList.css'
 import { champions } from "../../Data/ArrayChampions";
 
 export const ItemList = () => {
@@ -41,3 +41,4 @@ useEffect(()=>{
       </div>
   );
 }
+   

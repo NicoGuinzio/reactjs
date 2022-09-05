@@ -1,7 +1,7 @@
 
 
 import {useState} from 'react'
-import './itemCount.css'
+import './itemCouunt.css'
 
 export const CountButton = ({limite,initial,agregarProducto})=> {
   //Cuando una propiedad o variable de estado cambie, el componente vuelve a renderizarse.
