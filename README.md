@@ -69,3 +69,13 @@ Implementa un async mock (promise): Usa un efecto de montaje para poder emitir u
 
 
 **05/09/2022**
+
+
+__Entregable de 2 puntos.__
+### >1>Aspectos a incluir en el entregable:
+Al iniciar utilizando un efecto de montaje, debe llamar a un async mock, utilizando lo visto en la clase anterior con Promise, que en 2 segundos le devuelva un 1 ítem, y lo guarde en un estado propio.
+
+### >2>Aspectos a incluir en el entregable:
+ItemDetail.js, que debe mostrar la vista de detalle de un ítem incluyendo su descripción, una foto y el precio.
+
+

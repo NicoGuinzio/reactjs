@@ -1,16 +1,19 @@
 .cardContainer{
     display: flex;
     flex-wrap: wrap;
-    /* background-color: rgb(250, 193, 107); */
-    /* background-color: blue; */
+
 }
 
+.tarjetasDeCampeones{
+    padding: 4%;
+    width:20rem;
+
+}
 .imgContainer{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     width: 200px;
     height: auto;
     border: 2px solid rgb(0, 0, 0);

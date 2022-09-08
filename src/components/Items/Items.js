@@ -10,7 +10,7 @@ export const Tarjetas = ({campeones}) => {
       setseleccionCompra(seleccionCompra + 1)
     }
   return (
-    <div>
+    <div className='tarjetasDeCampeones'>
         <div className='imgContainer'>
           <img src={campeones.imagen} alt={campeones.nombre}className='imagen-size'></img>
           <p> {campeones.nombre}</p>

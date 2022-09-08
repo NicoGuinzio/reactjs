@@ -6,13 +6,6 @@ body{
     background: linear-gradient(70deg, rgb(109, 107, 107), rgb(240, 164, 50));
 }
 
-.card {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-around;
-    gap: 5rem;
-    
-}
+
 
 

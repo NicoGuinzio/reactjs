@@ -7,7 +7,7 @@ export const ItemList = () => {
   const [personajes,setPersonajes] = useState([])
 
   const obtenerCampeones = () => {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
       setTimeout(() => {
         resolve(champions)
       }, 2000)
@@ -33,7 +33,7 @@ useEffect(()=>{
           {
           personajes.map(campeones=>{
             return (
-              <Tarjetas campeones={campeones}/>
+              <Tarjetas key={campeones.id} campeones={campeones}/>
             )
           })
         }
