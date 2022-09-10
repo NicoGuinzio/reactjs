@@ -1,3 +1,4 @@
+import { ItemList } from '../ItemList/ItemList';
 import './ItemListContainer.css';
 
 export const ItemListContainer = ({titulo}) => {
@@ -5,6 +6,7 @@ export const ItemListContainer = ({titulo}) => {
         <>
             <div>
                 <h2 className='tituloItemList'>{titulo}</h2>
+                <ItemList/>
             </div>
         </>
     );

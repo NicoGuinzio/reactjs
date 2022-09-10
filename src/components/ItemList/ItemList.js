@@ -1,44 +1,28 @@
 import React, { useEffect, useState } from "react";
-import { Tarjetas } from "../Items/Items";
+import getFetch from "../../Data/ArrayChampions";
 import './itemList.css'
-import { champions } from "../../Data/ArrayChampions";
+import { Item } from "../Items/Items";
+
+
 
 export const ItemList = () => {
-  const [personajes,setPersonajes] = useState([])
+  const [data, setData] = useState([])
+  const [loading, setLoading] = useState(true)
 
-  const obtenerCampeones = () => {
-    return new Promise((resolve) => {
-      setTimeout(() => {
-        resolve(champions)
-      }, 2000)
+
+  useEffect(() => {
+    getFetch.then(data => {
+      setData(data)
     })
-  }
-
-
-
-useEffect(()=>{
-  const funcionAsincrona = async()=> {
-    try {
-      const listado = await obtenerCampeones()
-      setPersonajes(listado)
-      } catch (error) {
-      console.log("Hubo un error");
-    }
-  }
-  funcionAsincrona()
-},[])
-
+  }, [])
+  
+  
   return (
-      <div  className="cardContainer">
-          {
-          personajes.map(campeones=>{
-            return (
-              <Tarjetas key={campeones.id} campeones={campeones}/>
-            )
-          })
-        }
-        
-      </div>
-  );
+    <>
+  <h1> Aca tengo que hacer el map para que me traiga todos los objetos</h1>
+
+  </>
+)
 }
-   
+
+

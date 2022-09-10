@@ -1,7 +1,26 @@
-import { champions } from "../../Data/ArrayChampions";
-import { ItemDetail } from "../itemDetail/ItemDetail";
-import { useEffect, useState } from "react";
+// import { champions } from "../../Data/ArrayChampions";
+// import { ItemDetail } from "../itemDetail/ItemDetail";
+// import { useEffect, useState } from "react";
 
+import React from "react";
+import { ItemDetail } from "../itemDetail/ItemDetail";
+
+
+
+export const ItemDetailContainer = () => {
+    return(
+        <div>
+            <ItemDetail/>
+        </div>
+    )
+}
+
+
+
+
+
+
+/*
 // aca se ponee la card de item detail que va a tomar el array, se deben poner las propiedades a item detail
 
 export const ItemDetailContainer = () => {
@@ -35,3 +54,4 @@ export const ItemDetailContainer = () => {
     )
 }
 
+*/
