@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 // aca se ponee la card de item detail que va a tomar el array, se deben poner las propiedades a item detail
 
-export const itemDetailContainer = () => {
+export const ItemDetailContainer = () => {
     const [campeoncito, setCampeoncito] = useState([])
 
     const obtenerCampeones = () => {
