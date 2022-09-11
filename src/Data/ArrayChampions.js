@@ -6,7 +6,7 @@ export const champions = [
     precio: 100,
     posicion: "mid",
     imagen: "/assets/aatrox.png",
-    initial: 1
+    initial: 0
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const champions = [
     precio: 100,
     posicion: "mid",
     imagen: "/assets/brand.png",
-    initial: 1
+    initial: 0
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ export const champions = [
     precio: 100,
     posicion: "mid",
     imagen: "/assets/caitlyn.png",
-    initial: 1
+    initial: 0
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ export const champions = [
     precio: 100,
     posicion: "mid",
     imagen: "/assets/corki.png",
-    initial: 1
+    initial: 0
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ export const champions = [
     precio: 100,
     posicion: "mid",
     imagen: "/assets/darius.png",
-    initial: 1
+    initial: 0
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ export const champions = [
     precio: 100,
     posicion: "mid",
     imagen: "/assets/draven.png",
-    initial: 1
+    initial: 0
   },
   {
     id: 7,
@@ -60,7 +60,7 @@ export const champions = [
     precio: 100,
     posicion: "mid",
     imagen: "/assets/drmundo.png",
-    initial: 1
+    initial: 0
   },
   {
     id: 8,
@@ -69,7 +69,7 @@ export const champions = [
     precio: 100,
     posicion: "mid",
     imagen: "/assets/fizz.png",
-    initial: 1
+    initial: 0
   },
   {
     id: 9,
@@ -78,7 +78,7 @@ export const champions = [
     precio: 100,
     posicion: "mid",
     imagen: "/assets/janna.png",
-    initial: 1
+    initial: 0
   },
   {
     id: 10,
@@ -87,7 +87,7 @@ export const champions = [
     precio: 100,
     posicion: "mid",
     imagen: "/assets/jax.png",
-    initial: 1
+    initial: 0
   },
   {
     id: 11,
@@ -96,7 +96,7 @@ export const champions = [
     precio: 100,
     posicion: "mid",
     imagen: "/assets/jinx.png",
-    initial: 1
+    initial: 0
   },
   {
     id: 12,
@@ -105,7 +105,7 @@ export const champions = [
     precio: 100,
     posicion: "mid",
     imagen: "/assets/karma.png",
-    initial: 1
+    initial: 0
   },
   {
     id: 13,
@@ -114,7 +114,7 @@ export const champions = [
     precio: 100,
     posicion: "mid",
     imagen: "/assets/leeSin.png",
-    initial: 1
+    initial: 0
   },
   {
     id: 14,
@@ -123,7 +123,7 @@ export const champions = [
     precio: 100,
     posicion: "mid",
     imagen: "/assets/lucian.png",
-    initial: 1
+    initial: 0
   },
   {
     id: 15,
@@ -132,7 +132,7 @@ export const champions = [
     precio: 100,
     posicion: "mid",
     imagen: "/assets/lulu.png",
-    initial: 1
+    initial: 0
   },
   {
     id: 16,
@@ -141,7 +141,7 @@ export const champions = [
     precio: 100,
     posicion: "mid",
     imagen: "/assets/lux.png",
-    initial: 1
+    initial: 0
   },
   {
     id: 17,
@@ -150,7 +150,7 @@ export const champions = [
     precio: 100,
     posicion: "mid",
     imagen: "/assets/maestroyi.png",
-    initial: 1
+    initial: 0
   },
   {
     id: 18,
@@ -159,7 +159,7 @@ export const champions = [
     precio: 100,
     posicion: "mid",
     imagen: "/assets/missfortune.png",
-    initial: 1
+    initial: 0
   },
 ];
 
