@@ -1,6 +1,6 @@
 # ¡Hola, Bienvenid@!
 
-***## Mi nombre es Nicolás Nahuel Guinzio***
+*Mi nombre es Nicolás Nahuel Guinzio*
 Soy el creador de este proyecto de ReactJS necesario para finalizar mi curso de CODERHOUSE siendo de la comisión 41590.
 
 Mi intención es poder comentar paso a paso lo que voy creando, modificando y eliminando si es necesario para que puedan entender correctamente mi trabajo.
@@ -70,6 +70,15 @@ Implementa un async mock (promise): Usa un efecto de montaje para poder emitir u
 
 **05/09/2022**
 
+
+*En ItemList.js*
+  En getfetch se traen los datos a traves del .then osea trae una promesa.
+  Esa promesa se resuelve con el useEffect y su lista de dependencias.
+  Se crea entonces un estado inicializado con un array, porque se debe buscar una forma de almacenar lo que trae la promesa
+  esto se realiza a traves del "setData". 
+  Luego en el return, se realiza el rendering de data.
+  Se crea un div que va a tener a data, se realiza un mapeo renderizando al componente "item". Es importante siempre darle una key.
+  
 
 __Entregable de 2 puntos.__
 ### >1>Aspectos a incluir en el entregable:

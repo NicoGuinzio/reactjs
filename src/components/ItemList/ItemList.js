@@ -13,14 +13,22 @@ export const ItemList = () => {
   useEffect(() => {
     getFetch.then(data => {
       setData(data)
+      setLoading(false)
     })
   }, [])
-  
   
   return (
     <>
   <h1> Aca tengo que hacer el map para que me traiga todos los objetos</h1>
-
+  {
+    loading ? <h2>Cargando...</h2> 
+    :
+    <div className="grid-product">
+      {data.map(data=>(
+              <Item key={data.producto} data={data}/>
+      ))}
+    </div>
+  }
   </>
 )
 }

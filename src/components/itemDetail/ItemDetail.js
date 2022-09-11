@@ -35,25 +35,3 @@ export const ItemDetail = () => {
         </div>
     )
 }
-
-
-
-
-
-
-
-/*
-//Aca hago la card que traiga los array.
-
-export const ItemDetail = (objeto)=>{
-
-return (
-    <div>
-        <p>{objeto.id}</p>
-        <p>{objeto.nombre}</p>
-        <p>{objeto.precio}</p>
-        <p>{objeto.poder}</p>
-    </div>
-)
-}
-*/
