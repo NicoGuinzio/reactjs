@@ -58,9 +58,6 @@ Se crea el componente itemlist.css/js y se crea el componente item.css/js. Tambi
 Lo que se realizo fue una promesa para renderizar las cards de champions y se le aplico un tiempo para renderizar a travez del setTimeout(). Se utlilzó también una función asincrona y un map para no utilizar muchas lineas de codigo. 
 También aparte del desafio, se eliminaron carpetas y hojas de trabajo que no eran utilizadas.
 
->>> Consigna:
-Crea los componentes Item.js e ItemList.js para mostrar algunos productos en tu ItemListContainer.js. Los ítems deben provenir de un llamado a una promise que los resuelva en tiempo diferido (setTimeout) de 2 segundos, para emular retrasos de red
-
 
 ### >Aspectos a incluir en el entregable:
 Item.js: Es un componente destinado a mostrar información breve del producto que el user clickeará luego para acceder a los detalles (los desarrollaremos más adelante)
@@ -78,6 +75,26 @@ Implementa un async mock (promise): Usa un efecto de montaje para poder emitir u
   esto se realiza a traves del "setData". 
   Luego en el return, se realiza el rendering de data.
   Se crea un div que va a tener a data, se realiza un mapeo renderizando al componente "item". Es importante siempre darle una key.
+
+*En Itemlist.js*
+  Se recibe la data, se desestructura y recibe una estructura HTML.
+  Se crea en este archivo la estructura de la card inicial.
+
+*En ItemDetail.js*
+    Se realiza una logica muy similar a la logica de itemList pero el componente en este caso lo resolvemos con un objeto.
+    La diferencia es en el setData cuando se quiere setear toda la informacion, en vez de traer el array se trae solo un producto.
+    Se utiliza ".find" porque se busca uno solo y además devuelve un solo objeto.
+
+    Luego del return se realiza la parte del renderizado, se podria crear en un nuevo componente pero en este caso preferí no realizarlo.
+    Se le pasa la propiedad de data y se realiza lo mismo que en ItemList. Por supuesto que se renderizan otras cosas y se le aplica otro estilo.
+
+    Como se esta haciendo la emulando la tardanza de lo que lleva una base datos, se realiza una renderizado condicional para poder mostrar un
+    display hasta que se rendericen todos los datos que se buscan.
+
+    En la promesa del getFetch, al igual que setData se pone el setLoading que es la funcion que se le pide a react para que se pueda mostrar
+    lo que se retorna debajo.
+
+  
   
 
 __Entregable de 2 puntos.__

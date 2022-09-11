@@ -15,6 +15,7 @@ function App() {
       </nav>
       <section>
               <ItemListContainer/>
+              <hr></hr>
               <ItemDetailContainer/>
       </section>
     </div>

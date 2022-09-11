@@ -19,14 +19,14 @@ export const ItemList = () => {
   
   return (
     <>
-  <h1> Aca tengo que hacer el map para que me traiga todos los objetos</h1>
   {
-    loading ? <h2>Cargando...</h2> 
+    loading ? <h2>Cargando champions...</h2> 
     :
-    <div className="grid-product">
+    <div className='cardContainer'>
       {data.map(data=>(
-              <Item key={data.producto} data={data}/>
-      ))}
+              <Item key={data.id} data={data}/>
+              ))}
+    
     </div>
   }
   </>

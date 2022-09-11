@@ -9,7 +9,7 @@ import { ItemDetail } from "../itemDetail/ItemDetail";
 
 export const ItemDetailContainer = () => {
     return(
-        <div>
+        <div className='cardContainer'>
             <ItemDetail/>
         </div>
     )

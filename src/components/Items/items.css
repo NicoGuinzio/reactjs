@@ -1,4 +1,4 @@
-.cardContainer{
+.cardContainer2{
     display: flex;
     flex-wrap: wrap;
 
@@ -9,6 +9,7 @@
     width:20rem;
 
 }
+
 .imgContainer{
     display: flex;
     flex-wrap: wrap;
